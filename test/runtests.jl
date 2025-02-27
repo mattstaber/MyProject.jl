@@ -2,5 +2,5 @@ using MyProject
 using Test
 
 @testset "MyProject.jl" begin
-    # Write your tests here.
+    @test MyProject.hello() ==3
 end
